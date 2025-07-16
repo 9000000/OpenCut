@@ -148,8 +148,7 @@ export function DraggableMediaItem({
     </>
   );
 }
-
-function PlusButton({ className, onClick }: { className?: string; onClick?: () => void }) {
+function PlusButton({ className, onClick }: { className?: string; onClick?: () => void; tooltipText?: string }) {
   return (
     <Button
       size="icon"
